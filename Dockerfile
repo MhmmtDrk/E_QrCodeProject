@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 8080
-RUN apt-get update && apt-get install -y libgdiplus libc6-dev && ln -s /usr/lib/libgdiplus.so /usr/lib/gdiplus.dll && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y libgdiplus libc6-dev && ldconfig && rm -rf /var/lib/apt/lists/*
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
