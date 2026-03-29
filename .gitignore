@@ -1,0 +1,27 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+.vs/
+publish/
+
+## Sensitive config
+**/appsettings.json
+**/appsettings.Production.json
+
+## Logs
+**/wwwroot/Logs/
+*.log
+
+## Publish profiles
+**/Properties/PublishProfiles/
+
+## NuGet
+*.nupkg
+.nuget/
+
+## OS
+.DS_Store
+Thumbs.db
