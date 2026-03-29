@@ -1,0 +1,48 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error - Torruna";
+    Layout = null;
+}
+<title>Error - Torruna</title>
+<link href="~/images/torruna.png" rel="icon">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        text-align: center;
+        padding: 50px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+@*<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">An error occurred while processing your request.</h2>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>Request ID:</strong> <code>@Model.RequestId</code>
+    </p>
+}*@
+
+<h1>Oops! An Error Occurred</h1>
+<p>Sorry, something went wrong on the server.</p>
+<p>Click <a href="/">here</a> to return to the homepage.</p>

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EBC47A3C-7C16-4390-9B57-14069847BA28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QrCode.Domain", "QrCode.Domain\QrCode.Domain.csproj", "{3CC30DA2-EC52-4917-8F15-88E5ED4482F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QrCode.Application", "QrCode.Application\QrCode.Application.csproj", "{84996393-2E1D-4207-B6CF-5F73081CE796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QrCode.Infrastructure", "QrCode.Infrastructure\QrCode.Infrastructure.csproj", "{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QrCode.WebUi", "QrCode.WebUi\QrCode.WebUi.csproj", "{2FE37899-52CF-44C6-A0C8-C492630F2070}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CC30DA2-EC52-4917-8F15-88E5ED4482F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC30DA2-EC52-4917-8F15-88E5ED4482F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC30DA2-EC52-4917-8F15-88E5ED4482F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC30DA2-EC52-4917-8F15-88E5ED4482F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84996393-2E1D-4207-B6CF-5F73081CE796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84996393-2E1D-4207-B6CF-5F73081CE796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84996393-2E1D-4207-B6CF-5F73081CE796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84996393-2E1D-4207-B6CF-5F73081CE796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE37899-52CF-44C6-A0C8-C492630F2070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE37899-52CF-44C6-A0C8-C492630F2070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE37899-52CF-44C6-A0C8-C492630F2070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE37899-52CF-44C6-A0C8-C492630F2070}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CC30DA2-EC52-4917-8F15-88E5ED4482F4} = {EBC47A3C-7C16-4390-9B57-14069847BA28}
+		{84996393-2E1D-4207-B6CF-5F73081CE796} = {EBC47A3C-7C16-4390-9B57-14069847BA28}
+		{62059C56-98CC-4E3D-828E-3E5AEB25BD2B} = {EBC47A3C-7C16-4390-9B57-14069847BA28}
+		{2FE37899-52CF-44C6-A0C8-C492630F2070} = {EBC47A3C-7C16-4390-9B57-14069847BA28}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8FCE7BA-A9FC-4CD8-AE81-292025621687}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,877 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\tags\\createtag\\createtagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\tags\\createtag\\createtagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\tags\\createtag\\createtagcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\tags\\createtag\\createtagcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\exception\\createexception\\createexceptioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\exception\\createexception\\createexceptioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\exception\\createexception\\createexceptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\exception\\createexception\\createexceptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\views\\tag\\updatetagdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\views\\tag\\updatetagdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CC30DA2-EC52-4917-8F15-88E5ED4482F4}|QrCode.Domain\\QrCode.Domain.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.domain\\aggregatemodels\\tags\\view_taguser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CC30DA2-EC52-4917-8F15-88E5ED4482F4}|QrCode.Domain\\QrCode.Domain.csproj|solutionrelative:qrcode.domain\\aggregatemodels\\tags\\view_taguser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|solutionrelative:qrcode.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\views\\tag\\gettaglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\views\\tag\\gettaglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.infrastructure\\service\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|solutionrelative:qrcode.infrastructure\\service\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\tags\\gettaglist\\gettaglistcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\tags\\gettaglist\\gettaglistcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\views\\user\\getuserlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\views\\user\\getuserlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.infrastructure\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|solutionrelative:qrcode.infrastructure\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CC30DA2-EC52-4917-8F15-88E5ED4482F4}|QrCode.Domain\\QrCode.Domain.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.domain\\aggregatemodels\\tags\\events\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CC30DA2-EC52-4917-8F15-88E5ED4482F4}|QrCode.Domain\\QrCode.Domain.csproj|solutionrelative:qrcode.domain\\aggregatemodels\\tags\\events\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\tags\\updatetag\\updateverificationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\tags\\updatetag\\updateverificationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\models\\tagupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\models\\tagupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\tags\\updatetagdetails\\updatetagdetailscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\tags\\updatetagdetails\\updatetagdetailscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\tags\\gettagdetails\\gettagdetailscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\tags\\gettagdetails\\gettagdetailscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.infrastructure\\pageactionenricher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|solutionrelative:qrcode.infrastructure\\pageactionenricher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\tags\\updatetagdetails\\updatetagdetailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\tags\\updatetagdetails\\updatetagdetailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\tags\\istagverification\\istagverificationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\tags\\istagverification\\istagverificationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\views\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\views\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\models\\qrcodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\models\\qrcodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|solutionrelative:qrcode.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.infrastructure\\qrcode.infrastructure.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|solutionrelative:qrcode.infrastructure\\qrcode.infrastructure.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\tags\\updatetag\\updateqrcodeimagecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\tags\\updatetag\\updateqrcodeimagecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\tags\\updatetag\\updateqrcodeimagecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\tags\\updatetag\\updateqrcodeimagecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\models\\tagdetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\models\\tagdetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CC30DA2-EC52-4917-8F15-88E5ED4482F4}|QrCode.Domain\\QrCode.Domain.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.domain\\aggregatemodels\\users\\myuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CC30DA2-EC52-4917-8F15-88E5ED4482F4}|QrCode.Domain\\QrCode.Domain.csproj|solutionrelative:qrcode.domain\\aggregatemodels\\users\\myuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\tags\\getusertag\\getusertagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\tags\\getusertag\\getusertagcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\tags\\gettagdetails\\gettagdetailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\tags\\gettagdetails\\gettagdetailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.infrastructure\\migrations\\20240325144415_firstnatro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|solutionrelative:qrcode.infrastructure\\migrations\\20240325144415_firstnatro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.infrastructure\\migrations\\20240401143907_addtag_customername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|solutionrelative:qrcode.infrastructure\\migrations\\20240401143907_addtag_customername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\users\\getalluser\\getallusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\users\\getalluser\\getallusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\users\\getalluser\\getallusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\users\\getalluser\\getallusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\users\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\users\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.application\\features\\users\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84996393-2E1D-4207-B6CF-5F73081CE796}|QrCode.Application\\QrCode.Application.csproj|solutionrelative:qrcode.application\\features\\users\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.infrastructure\\validator\\forgotpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|solutionrelative:qrcode.infrastructure\\validator\\forgotpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\models\\forgotpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\models\\forgotpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.webui\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FE37899-52CF-44C6-A0C8-C492630F2070}|QrCode.WebUi\\QrCode.WebUi.csproj|solutionrelative:qrcode.webui\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.infrastructure\\migrations\\20240408132043_add_tagtypecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|solutionrelative:qrcode.infrastructure\\migrations\\20240408132043_add_tagtypecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|c:\\users\\dell4800\\desktop\\me\\e_qrcodeproject\\qrcode.infrastructure\\migrations\\20240423154810_update_tagimagesbytetostring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62059C56-98CC-4E3D-828E-3E5AEB25BD2B}|QrCode.Infrastructure\\QrCode.Infrastructure.csproj|solutionrelative:qrcode.infrastructure\\migrations\\20240423154810_update_tagimagesbytetostring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Controllers\\TagController.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Controllers\\TagController.cs",
+              "RelativeToolTip": "QrCode.WebUi\\Controllers\\TagController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:04:50.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateExceptionCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Exception\\CreateException\\CreateExceptionCommandHandler.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Exception\\CreateException\\CreateExceptionCommandHandler.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Exception\\CreateException\\CreateExceptionCommandHandler.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Exception\\CreateException\\CreateExceptionCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:03:33.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetUserList.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\User\\GetUserList.cshtml",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Views\\User\\GetUserList.cshtml",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\User\\GetUserList.cshtml",
+              "RelativeToolTip": "QrCode.WebUi\\Views\\User\\GetUserList.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwEIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T10:35:24.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateTagDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Tag\\UpdateTagDetails.cshtml",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Views\\Tag\\UpdateTagDetails.cshtml",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Tag\\UpdateTagDetails.cshtml",
+              "RelativeToolTip": "QrCode.WebUi\\Views\\Tag\\UpdateTagDetails.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T14:26:55.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateTagCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\CreateTag\\CreateTagCommand.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Tags\\CreateTag\\CreateTagCommand.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\CreateTag\\CreateTagCommand.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Tags\\CreateTag\\CreateTagCommand.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAIAwwBkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T08:37:01.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateTagCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\CreateTag\\CreateTagCommandHandler.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Tags\\CreateTag\\CreateTagCommandHandler.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\CreateTag\\CreateTagCommandHandler.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Tags\\CreateTag\\CreateTagCommandHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAhwBsAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T12:05:27.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "QrCode.WebUi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAhwC4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetTagListCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\GetTagList\\GetTagListCommand.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Tags\\GetTagList\\GetTagListCommand.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\GetTagList\\GetTagListCommand.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Tags\\GetTagList\\GetTagListCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:40:14.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateExceptionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Exception\\CreateException\\CreateExceptionCommand.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Exception\\CreateException\\CreateExceptionCommand.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Exception\\CreateException\\CreateExceptionCommand.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Exception\\CreateException\\CreateExceptionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:32:15.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "QrCode.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "QrCode.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwBsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "QrCode.Infrastructure\\Service\\EmailService.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Service\\EmailService.cs",
+              "RelativeToolTip": "QrCode.Infrastructure\\Service\\EmailService.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAYwDgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetTagList.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Tag\\GetTagList.cshtml",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Views\\Tag\\GetTagList.cshtml",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Tag\\GetTagList.cshtml",
+              "RelativeToolTip": "QrCode.WebUi\\Views\\Tag\\GetTagList.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T10:35:24.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "View_TagUser.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Domain\\AggregateModels\\Tags\\View_TagUser.cs",
+              "RelativeDocumentMoniker": "QrCode.Domain\\AggregateModels\\Tags\\View_TagUser.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Domain\\AggregateModels\\Tags\\View_TagUser.cs",
+              "RelativeToolTip": "QrCode.Domain\\AggregateModels\\Tags\\View_TagUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T10:40:43.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "QrCode.WebUi\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAO4AAAAAAAAAAAAwwP4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T06:52:58.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TagService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Service\\TagService.cs",
+              "RelativeDocumentMoniker": "QrCode.Infrastructure\\Service\\TagService.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Service\\TagService.cs",
+              "RelativeToolTip": "QrCode.Infrastructure\\Service\\TagService.cs",
+              "ViewState": "AQIAAPoAAAAAAAAAAAAiwBIBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T06:36:19.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ITagService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Domain\\AggregateModels\\Tags\\Events\\ITagService.cs",
+              "RelativeDocumentMoniker": "QrCode.Domain\\AggregateModels\\Tags\\Events\\ITagService.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Domain\\AggregateModels\\Tags\\Events\\ITagService.cs",
+              "RelativeToolTip": "QrCode.Domain\\AggregateModels\\Tags\\Events\\ITagService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADgvw0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:23:34.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Account\\Create.cshtml",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Views\\Account\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Account\\Create.cshtml",
+              "RelativeToolTip": "QrCode.WebUi\\Views\\Account\\Create.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T21:52:46.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "QrCode.Application\\DependencyInjection.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T23:11:20.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QrCode.WebUi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowBwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T10:35:24.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TagUpdateModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Models\\TagUpdateModel.cs",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Models\\TagUpdateModel.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Models\\TagUpdateModel.cs",
+              "RelativeToolTip": "QrCode.WebUi\\Models\\TagUpdateModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateVerificationCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\UpdateTag\\UpdateVerificationCommand.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Tags\\UpdateTag\\UpdateVerificationCommand.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\UpdateTag\\UpdateVerificationCommand.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Tags\\UpdateTag\\UpdateVerificationCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T15:24:35.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "QrCode.WebUi\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAApwHcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T10:35:24.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetTagDetailsCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\GetTagDetails\\GetTagDetailsCommandHandler.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Tags\\GetTagDetails\\GetTagDetailsCommandHandler.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\GetTagDetails\\GetTagDetailsCommandHandler.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Tags\\GetTagDetails\\GetTagDetailsCommandHandler.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAApwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:23:24.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateTagDetailsCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\UpdateTagDetails\\UpdateTagDetailsCommandHandler.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Tags\\UpdateTagDetails\\UpdateTagDetailsCommandHandler.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\UpdateTagDetails\\UpdateTagDetailsCommandHandler.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Tags\\UpdateTagDetails\\UpdateTagDetailsCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:44:47.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateTagDetailsCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\UpdateTagDetails\\UpdateTagDetailsCommand.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Tags\\UpdateTagDetails\\UpdateTagDetailsCommand.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\UpdateTagDetails\\UpdateTagDetailsCommand.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Tags\\UpdateTagDetails\\UpdateTagDetailsCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:43:29.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PageActionEnricher.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\PageActionEnricher.cs",
+              "RelativeDocumentMoniker": "QrCode.Infrastructure\\PageActionEnricher.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\PageActionEnricher.cs",
+              "RelativeToolTip": "QrCode.Infrastructure\\PageActionEnricher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T12:02:35.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "QrCode.WebUi\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAUwFkAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T10:35:24.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "QrCode.WebUi\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T10:35:24.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IsTagVerificationCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\IsTagVerification\\IsTagVerificationCommandHandler.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Tags\\IsTagVerification\\IsTagVerificationCommandHandler.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\IsTagVerification\\IsTagVerificationCommandHandler.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Tags\\IsTagVerification\\IsTagVerificationCommandHandler.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAlwBQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:23:28.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Views\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "QrCode.WebUi\\Views\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAEUAAADkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T10:35:24.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "QrCodeModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Models\\QrCodeModel.cs",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Models\\QrCodeModel.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Models\\QrCodeModel.cs",
+              "RelativeToolTip": "QrCode.WebUi\\Models\\QrCodeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:32:48.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "QrCode.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "QrCode.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAApwF4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T16:27:38.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\appsettings.json",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\appsettings.json",
+              "RelativeToolTip": "QrCode.WebUi\\appsettings.json",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T19:44:16.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "QrCode.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\QrCode.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "QrCode.Infrastructure\\QrCode.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\QrCode.Infrastructure.csproj",
+              "RelativeToolTip": "QrCode.Infrastructure\\QrCode.Infrastructure.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-24T11:23:45.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UpdateQrCodeImageCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\UpdateTag\\UpdateQrCodeImageCommandHandler.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Tags\\UpdateTag\\UpdateQrCodeImageCommandHandler.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\UpdateTag\\UpdateQrCodeImageCommandHandler.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Tags\\UpdateTag\\UpdateQrCodeImageCommandHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:10:27.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UpdateQrCodeImageCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\UpdateTag\\UpdateQrCodeImageCommand.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Tags\\UpdateTag\\UpdateQrCodeImageCommand.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\UpdateTag\\UpdateQrCodeImageCommand.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Tags\\UpdateTag\\UpdateQrCodeImageCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:09:10.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20240423154810_Update_TagImagesBytetoString.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Migrations\\20240423154810_Update_TagImagesBytetoString.cs",
+              "RelativeDocumentMoniker": "QrCode.Infrastructure\\Migrations\\20240423154810_Update_TagImagesBytetoString.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Migrations\\20240423154810_Update_TagImagesBytetoString.cs",
+              "RelativeToolTip": "QrCode.Infrastructure\\Migrations\\20240423154810_Update_TagImagesBytetoString.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:48:11.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TagDetailModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Models\\TagDetailModel.cs",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Models\\TagDetailModel.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Models\\TagDetailModel.cs",
+              "RelativeToolTip": "QrCode.WebUi\\Models\\TagDetailModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:42:40.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20240408132043_Add_TagTypeColumn.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Migrations\\20240408132043_Add_TagTypeColumn.cs",
+              "RelativeDocumentMoniker": "QrCode.Infrastructure\\Migrations\\20240408132043_Add_TagTypeColumn.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Migrations\\20240408132043_Add_TagTypeColumn.cs",
+              "RelativeToolTip": "QrCode.Infrastructure\\Migrations\\20240408132043_Add_TagTypeColumn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T13:20:44.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MyUser.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Domain\\AggregateModels\\Users\\MyUser.cs",
+              "RelativeDocumentMoniker": "QrCode.Domain\\AggregateModels\\Users\\MyUser.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Domain\\AggregateModels\\Users\\MyUser.cs",
+              "RelativeToolTip": "QrCode.Domain\\AggregateModels\\Users\\MyUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "QrCode.WebUi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T10:35:24.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetUserTagCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\GetUserTag\\GetUserTagCommandHandler.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Tags\\GetUserTag\\GetUserTagCommandHandler.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\GetUserTag\\GetUserTagCommandHandler.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Tags\\GetUserTag\\GetUserTagCommandHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBZwBkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GetTagDetailsCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\GetTagDetails\\GetTagDetailsCommand.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Tags\\GetTagDetails\\GetTagDetailsCommand.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Tags\\GetTagDetails\\GetTagDetailsCommand.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Tags\\GetTagDetails\\GetTagDetailsCommand.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20240401143907_AddTag_CustomerName.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Migrations\\20240401143907_AddTag_CustomerName.cs",
+              "RelativeDocumentMoniker": "QrCode.Infrastructure\\Migrations\\20240401143907_AddTag_CustomerName.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Migrations\\20240401143907_AddTag_CustomerName.cs",
+              "RelativeToolTip": "QrCode.Infrastructure\\Migrations\\20240401143907_AddTag_CustomerName.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20240325144415_FirstNatro.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Migrations\\20240325144415_FirstNatro.cs",
+              "RelativeDocumentMoniker": "QrCode.Infrastructure\\Migrations\\20240325144415_FirstNatro.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Migrations\\20240325144415_FirstNatro.cs",
+              "RelativeToolTip": "QrCode.Infrastructure\\Migrations\\20240325144415_FirstNatro.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAIBZwCMAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GetAllUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Users\\GetAllUser\\GetAllUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Users\\GetAllUser\\GetAllUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Users\\GetAllUser\\GetAllUserCommandHandler.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Users\\GetAllUser\\GetAllUserCommandHandler.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAIBZwBkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetAllUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Users\\GetAllUser\\GetAllUserCommand.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Users\\GetAllUser\\GetAllUserCommand.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Users\\GetAllUser\\GetAllUserCommand.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Users\\GetAllUser\\GetAllUserCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CreateUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Users\\CreateUser\\CreateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Users\\CreateUser\\CreateUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Users\\CreateUser\\CreateUserCommandHandler.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Users\\CreateUser\\CreateUserCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Users\\CreateUser\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "QrCode.Application\\Features\\Users\\CreateUser\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Application\\Features\\Users\\CreateUser\\CreateUserCommand.cs",
+              "RelativeToolTip": "QrCode.Application\\Features\\Users\\CreateUser\\CreateUserCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ForgotPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Models\\ForgotPasswordModel.cs",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Models\\ForgotPasswordModel.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Models\\ForgotPasswordModel.cs",
+              "RelativeToolTip": "QrCode.WebUi\\Models\\ForgotPasswordModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ForgotPasswordvalidator.cs",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Validator\\ForgotPasswordvalidator.cs",
+              "RelativeDocumentMoniker": "QrCode.Infrastructure\\Validator\\ForgotPasswordvalidator.cs",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.Infrastructure\\Validator\\ForgotPasswordvalidator.cs",
+              "RelativeToolTip": "QrCode.Infrastructure\\Validator\\ForgotPasswordvalidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:35:24.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "QrCode.WebUi\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAABhwFEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T10:35:24.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "QrCode.WebUi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\DELL4800\\Desktop\\Me\\E_QrCodeProject\\QrCode.WebUi\\appsettings.Development.json",
+              "RelativeToolTip": "QrCode.WebUi\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T10:35:24.563Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

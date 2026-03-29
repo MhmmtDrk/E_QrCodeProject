@@ -1,0 +1,145 @@
+﻿@model QrCode.Application.Models.LoginRequest
+
+@{
+    Layout = null;
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="Torruna Tag Page" name="keywords">
+<link href="~/images/torruna.png" rel="icon">
+<title>Sign in - Torruna</title>
+<!-- Google Web Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+<!-- Flaticon Font -->
+<link href="~/lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+<!-- Libraries Stylesheet -->
+
+<link href="~/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+<!-- Customized Bootstrap Stylesheet -->
+<link href="~/css/style.css" rel="stylesheet">
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #eee;
+        width:98%;
+    }
+</style>
+<div class="container-fluid">
+
+    <div class="row justify-content-center mt-2">
+        <div class="col-sm-4 mb-1" style="box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important;
+    background-color: #fff; border-radius: 20px;">
+            <div class="contact-form p-2">
+                <div class="d-flex flex-column text-center mb-2 pt-2">
+                    <img src="~/images/torruna.png" style="height:75px;margin:auto;padding:5px" />
+                    <h4 class="text-secondary mb-1">Torruna </h4>
+                    @if (TempData["VerificationCode"] == null)
+                    {
+                        <h1 class="m-0">Sign in</h1>
+                    }                 
+                </div>
+                @*<div id="success"></div>*@
+                @if (TempData["VerificationCode"] == null)
+                {
+                    <form method="post">
+                        <div class="control-group ">
+                            <a href="/Account/GoogleLogin" class="btn btn-light mb-2 mt-2 form-control" style="background: #4285f4;border-radius: 5px" type="submit" id="sendMessageButton">
+                                <img src="https://developers.google.com/identity/images/g-logo.png" style="height: 100%;border-radius: 5px;" /> <span style="color:white">Continue with google</span>
+                            </a>
+                            <br>
+                            <a href="/Account/ExternalLogin" class="btn btn-light  mb-2 form-control" style="background: #4065B4;" type="submit" id="sendMessageButton">
+                                <img src="https://static.xx.fbcdn.net/rsrc.php/yE/r/xotM8R60Dei.svg" style="height: 100%;border-radius: 5px" /> <span style="color:white">Continue with facebook</span>
+                            </a>
+                            <br>
+                         
+                        </div>
+                        <div class="control-group text-center p-3">
+                            OR LOGIN WITH EMAIL
+                         </div>
+                        @if (ViewData["ReturnUrl"] != null)
+                        {
+                            <div>
+                                <input type="hidden" name="ReturnUrl" value="@ViewData["ReturnUrl"]" />
+                            </div>
+                        }
+                        @if (ViewBag.Message != null)
+                        {
+                            <div class="form-group alert alert-info">
+                                <span>Before logging in, click on the confirmation email we sent to @ViewBag.Message's email address.<br /><span style="font-weight:bold">It may take a few minutes for the activation code to reach your email.</span></span>
+                            </div>
+                        }
+                        @if (TempData["Error"] != null)
+                        {
+                            <div class="alert alert-danger">
+                                <span>@TempData["Error"]</span>
+                            </div>
+                        }
+                        <div class="control-group mb-2">
+                            <input type="text" class="form-control p-4" id="email" placeholder="User Email" asp-for="Email" />
+                            <span class="help-block text-danger" asp-validation-for="Email"></span>
+                        </div>
+                        <div class="control-group">
+                            <input type="password" class="form-control p-4" id="email" placeholder="Password" asp-for="Password" />
+                            <span class="help-block text-danger" asp-validation-for="Password"></span>
+                        </div>
+
+                        <div class="control-group text-right">
+                            <button class="btn btn-primary  mt-3 form-control" type="submit" id="sendMessageButton">Login</button>
+                        </div>
+                        <hr style="height:1px">
+                        <div class="control-group" style="display:flex;justify-content:space-around">
+                            <a style="color:#4065B4;text-decoration:none" href="/Account/create">Create Account</a>
+                            <a style="color:#4065B4;text-decoration:none" href="/Account/ForgotPassword">
+                                Forgot Password
+                            </a>
+                        </div>
+                        <hr style="height:1px" />
+                        <div class="control-group " style="text-align:center">
+
+                            <span class="small mr-2">Powered by</span><a href="https://www.amazon.com/stores/LeatherDogCollar/page/E13E8438-BBE1-4498-AEB6-9F2454F5ADDB?ref_=ast_bln" target="_blank" rel="noopener noreferrer"><img src="~/images/torruna.png" style="height:25px;margin:auto;padding:5px" />TORRUNA</a>
+                        </div>
+
+                    </form>
+                }
+                else
+                {
+
+                    <form method="POST" class="register-form" id="verification-form">
+                        <h4 class="form-title">Enter the verification code for your tag number #@TempData["Tag"] sent to your email.</h4>
+                        @if (TempData["Error"] != null)
+                        {
+                            <div class="alert alert-danger">
+                                <span>The code entered is incorrect.</span>
+                            </div>
+                        }
+                        <div class="form-group">
+
+                            <input type="text" class="form-control p-4" placeholder="VerificationCode" required="required" data-validation-required-message="Please enter your name" asp-for="TagVerification.IncomingVerificationCode" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div style="text-align:end">
+                            <input type="hidden" value="@TempData["Tag"]" asp-for="TagVerification.Tag" />
+
+                            <button class="btn btn-primary py-3 px-5" type="submit" id="sendMessageButton">Send</button>
+
+                        </div>
+                    </form>
+                }
+            </div>
+        </div>
+
+    </div>
+
+</div>
+    

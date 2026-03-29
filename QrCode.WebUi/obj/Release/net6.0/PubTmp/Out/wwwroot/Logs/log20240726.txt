@@ -1,0 +1,4 @@
+[2024-07-26 14:02:13 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-26 14:02:13 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-26 14:33:14 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-26 14:33:14 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.

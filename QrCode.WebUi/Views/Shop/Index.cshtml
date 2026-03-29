@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<title>Shop - Torruna</title>
+
+<div class="container py-3 mt-3" style="text-align:center">
+    <div class="py-3" style="box-shadow: 0 0 10px 0 #65C178 inset;display: inline-flex;width: 100%;justify-content: center;align-items: center;min-height: 40px;max-width: 500px;border-radius:10%">
+        <div style="width:15%">
+          @* <img src="/images/amazon_icon.png" style="height:40px"/> *@
+            <img src="/images/amz.png" style="height:40px" />
+        </div>
+        <div>
+            <a  href="https://www.amazon.com/stores/LeatherDogCollar/page/E13E8438-BBE1-4498-AEB6-9F2454F5ADDB?ref_=ast_bln" style="text-decoration:none">
+                <h4>Click to See Our Amazon Store</h4>
+            </a>
+        </div>        
+    </div>   
+    <br />
+    <br />
+    <div class="py-3" style="box-shadow: 0 0 10px 0 #65C178 inset;display: inline-flex;width: 100%;justify-content: center;align-items: center;min-height: 40px;max-width: 500px;border-radius:10%">
+        <div style="width:15%">
+            <img src="/images/torruna.png" style="height:40px"/>
+           @*  <i class="fas fa-globe" style="font-size:40px"></i> *@
+            
+            
+        </div>
+        <div>
+            <a href="https://www.torruna.com" style="text-decoration:none">
+                <h4>Click to See Our Website</h4>
+            </a>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#navbarCollapse > div > a.nav-item.nav-link.active').removeClass('active');
+        $("#navbarCollapse > div > a:nth-child(3)").addClass("active");
+    });
+</script>

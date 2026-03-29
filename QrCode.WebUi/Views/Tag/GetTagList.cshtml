@@ -1,0 +1,250 @@
+﻿
+
+@using Microsoft.AspNetCore.Identity;
+@using QrCode.Domain.AggregateModels.Users;
+@model List<QrCode.Domain.AggregateModels.Tags.View_TagUser>
+@inject UserManager<ApplicationUser> UserManager
+@{
+
+    ViewData["Title"] = "GetTagList";
+    var startDate = ViewData["StartDate"];
+    var endDate = ViewData["EndDate"];
+    var searchString = ViewData["SearchString"];
+    var tagType = ViewData["TagType"];
+}
+<style>
+    .image-container {
+        position: relative;
+        display: inline-block;
+    }
+
+        .image-no img {
+            width: auto;
+            height:75px;
+            transition: transform 0.2s ease;
+            transform-origin: right center; /* Sola doğru genişlemesini sağlar */
+            border-radius: 20px;            
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+        }
+
+        .image-container img {
+            width: auto;
+            height: 75px;
+            transition: transform 0.2s ease;
+            transform-origin: right center; /* Sola doğru genişlemesini sağlar */
+            border-radius: 20px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+
+        .image-container:hover img {
+            transform: scale(2);
+            position: absolute;
+            z-index: 10;
+           
+        }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+
+
+<!-- Arama Formu -->
+
+<title>Tag List - Torruna</title>
+<div class="container-fluid  pt-3 pb-4">
+    <div>
+
+        <div class="control-group mb-2">
+            <form asp-controller="Tag" asp-action="GetTagList" method="get">
+
+                <h4 class="text-secondary mb-3" style="justify-content: space-between;display: flex;">
+                    <span>Tag List</span>
+                    @if(Model.Count!=0)
+                    {
+                        <span class="text-dark" style="font-size:12px">Number of records found: @Model.Count</span>
+                    }
+                    else
+                    {
+                        <span class="text-dark" style="font-size:12px">No Records Found</span>
+                    }
+                </h4>
+                <div class="row">
+                    <div class="col-md-12 mb-1" style="display:flex">
+                        <input type="text" id="txtSearch" class="form-control p-4" name="searchString" placeholder="Search..." value="" />
+
+                    </div>
+                </div>
+                <div class="row">
+                    
+                   
+                    <div class="input-group date col-md-3 mb-1" id="datepicker2">
+
+                        <input type="text" class="form-control  p-4" id="startDate" name="startDate" readonly="readonly" >
+                        <span class="input-group-append">
+                            <span class="input-group-text bg-white">
+                                <i class="fa fa-calendar"></i>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="input-group date col-md-3 mb-1" id="datepicker">
+                        
+                        <input type="text" class="form-control  p-4" id="endDate" name="endDate" readonly="readonly">
+                        <span class="input-group-append">
+                            <span class="input-group-text bg-white">
+                                <i class="fa fa-calendar"></i>
+                            </span>
+                        </span>
+                        
+                    </div>
+                    <div class="input-group date col-md-3 mb-1">
+                        <select class="form-select col-md-12" id="tagType" name="tagType" aria-label="Default select example">
+                            <option value="1" selected>QrCode List</option>
+                            <option value="3">PNG List</option>
+                            
+                        </select>
+
+                    </div>
+                    
+                    <div class="col-md-3 text-right">
+                        <button class="btn btn-info  p-2 mb-1" type="submit"><i class="fas fa-search"></i> Search</button>
+                        @* <button class="btn btn-success p-2 mb-1" type="submit"><i class="fas fa-file-export"></i> Export Excel</button> *@
+                        <a href="/Tag/ExportToExcel?searchString=@searchString&startDate=@startDate&endDate=@endDate&tagType=@tagType" class="btn btn-success p-2 mb-1"><i class="fas fa-file-export"></i> Export Excel</a>
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert alert-warning alert-dismissible fade show" role="alert" style="background:#28a745;color:#fff">
+                <i class="far fa-check-circle"></i> <strong>@TempData["Success"]</strong>'s permission has been changed
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+        <table class="table table-stripped mb-5 col-md-12" style="text-align:center">
+            <thead>
+                <tr>
+                    <th class="col-md-1"></th>
+                    <th class="col-md-1"><i class="far fa-image"></i><br />Image</th>
+                    <th class="col-md-1"><i class="fas fa-tag"></i><br />Tag ID</th>
+                    <th class="col-md-2"></i><i class="fas fa-hashtag"></i><br />Order ID</th>
+                    <th class="col-md-1"><i class="fas fa-user-tie"></i><br />Customer Name and Adress</th>
+                    <th class="col-md-1"><i class="fas fa-fingerprint"></i><br />SKU</th>
+                    <th class="col-md-1"><i class="fas fa-dog"></i><br />Dog's Name</th>
+                    <th class="col-md-1"><i class="fas fa-phone-alt"></i><br />Phone Number</th>
+                    <th class="col-md-1"><i class="fas fa-bone"></i><br />Leather Dog Leash</th>
+                    <th class="col-md-1"><i class="fas fa-user-circle"></i><br />Created Mail</th>
+                    <th class="col-md-1"><i class="fas fa-calendar-check"></i><br />Created Date</th>
+                    
+                </tr>
+            </thead>
+
+            <tbody>
+                @{
+                    var say = 1;
+                }
+                @foreach (var tag in Model)
+                {
+                    var bgtr = tag.IsVerification ? "whitesmoke" : "";
+                    var classs = "image-container";
+                    if(tag.TagImages.Contains("no-image"))
+                    {
+                        classs = "image-no";
+                    }
+                    <tr style="background:@bgtr">
+                        <th scope="row" style="align-content:center">@say</th>
+                        <td style="align-content:center">
+                            <div class="@classs">
+                                <img src="@tag.TagImages">
+                            </div>
+                        </td>
+                        <td style="align-content:center">@tag.No</td>
+                        <td style="align-content:center">@tag.OrderNo</td>
+                        <td style="align-content:center">@tag.Address</td>
+                        <td style="align-content:center">@tag.OrderSKU</td>
+                        <td style="align-content:center">@tag.OrderName</td>
+                        <td style="align-content:center">@tag.OrderTelephone</td>
+                        <td style="align-content:center">@tag.DogLeash</td>
+                        <td style="align-content:center">@tag.Email</td>
+                        <td style="align-content:center">@tag.CreatedDate</td>
+                        
+                    </tr>
+                    say++;
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#navbarCollapse > div > a.nav-item.nav-link.active').removeClass('active');
+        $("#navbarCollapse > div > a:nth-child(5").addClass("active");
+   
+
+        // Input alanına atama
+        $('#startDate').val('@startDate');
+        $('#endDate').val('@endDate');
+        $('#txtSearch').val('@searchString');
+        
+       
+
+        if ('@tagType' == 0) {
+            $('#tagType').val('1');
+        }
+        else {
+            $('#tagType').val('@tagType');
+        }
+        // Datepicker'ı etkinleştir
+        $('#datepicker').datepicker({
+            format: 'yyyy-mm-dd',
+            autoclose: true,
+            // onSelect: function (selectedDate) {
+            //     alert("sadsad");
+            //     var endDate = $('#endDate');
+            //     var startDate = $(this).datepicker('getDate');
+            //     if (startDate !== null) {
+            //         alert("sadsad");
+            //         endDate.datepicker('option', 'minDate', startDate);
+            //     }
+            // }
+            // timeFormat: 'HH:mm:ss', // Saat, dakika ve saniye formatı
+            // controlType: 'select', // Zaman seçimi için dropdown listesi kullan
+            // stepMinute: 1, // Dakika adımı 
+            // stepSecond: 1,
+            // showSecond: true// Saniye adımı
+
+        });
+        $('#datepicker2').datepicker({
+            format: 'yyyy-mm-dd',
+            autoclose: true,
+            // timeFormat: 'HH:mm:ss', // Saat, dakika ve saniye formatı            
+            // controlType: 'select', // Zaman seçimi için dropdown listesi kullan
+            // stepMinute: 1, // Dakika adımı
+            // stepSecond: 1 // Saniye adımı
+        });
+
+        
+     
+    });
+
+
+        
+
+
+            //$("#veriGetirButton").click(function () {
+            //    var baslangicTarihi = $("#baslangicTarihi").datepicker("getDate");
+            //    var bitisTarihi = $("#bitisTarihi").datepicker("getDate");
+
+            //    // Seçilen tarih aralığını alıp bir AJAX isteği göndermek için kullanabilirsiniz
+            //    // Örnek AJAX isteği:
+            //    // $.get("/Veri/TarihAralığıVerileri?baslangicTarihi=" + baslangicTarihi.toISOString() + "&bitisTarihi=" + bitisTarihi.toISOString(), function(data) {
+            //    //    // Alınan verilere göre bir şeyler yapın
+            //    // });
+            //});
+
+
+</script>

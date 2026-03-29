@@ -1,0 +1,127 @@
+[2024-07-20 14:46:33 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 14:46:33 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 14:46:48 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 14:46:48 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:16:55 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:16:55 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:17:44 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:17:44 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:26:59 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:27:00 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:28:10 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:28:10 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:29:18 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:29:18 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:36:27 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:36:27 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:36:35 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:36:35 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:40:20 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:40:20 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:40:53 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:40:53 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:41:09 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:41:10 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:41:51 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:41:51 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:42:13 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:42:13 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:43:23 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:43:23 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:44:34 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:44:34 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:44:54 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:44:54 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:45:48 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:45:48 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:51:19 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:51:19 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:51:30 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:51:30 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:52:52 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 17:52:52 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 17:53:29 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 17:53:50 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 17:54:35 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 17:55:51 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 17:56:53 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 17:57:44 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:01:11 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:02:07 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:02:33 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:09:59 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:09:59 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:10:15 ERR]  Error Page:Account/Login, Error:Tag bulunamadı, Error Line:197
+   at QrCode.Application.Features.Tags.VerificationCode.GetVerificationCodeHandler.Handle(GetVerificationCode request, CancellationToken cancellationToken) in C:\Users\DELL4800\Desktop\Me\E_QrCodeProject\QrCode.Application\Features\Tags\VerificationCode\GetVerificationCodeHandler.cs:
+[2024-07-20 18:10:15 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:10:29 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:10:29 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:10:38 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:10:38 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:11:45 ERR]  Error Page:Account/Login, Error:Tag bulunamadı, Error Line:197
+   at QrCode.Application.Features.Tags.VerificationCode.GetVerificationCodeHandler.Handle(GetVerificationCode request, CancellationToken cancellationToken) in C:\Users\DELL4800\Desktop\Me\E_QrCodeProject\QrCode.Application\Features\Tags\VerificationCode\GetVerificationCodeHandler.cs:
+[2024-07-20 18:11:45 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:11:52 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:11:52 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:13:29 ERR]  Error Page:Account/Login, Error:Tag bulunamadı, Error Line:197
+   at QrCode.Application.Features.Tags.VerificationCode.GetVerificationCodeHandler.Handle(GetVerificationCode request, CancellationToken cancellationToken) in C:\Users\DELL4800\Desktop\Me\E_QrCodeProject\QrCode.Application\Features\Tags\VerificationCode\GetVerificationCodeHandler.cs:
+[2024-07-20 18:13:29 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:13:34 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:13:34 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:13:53 ERR]  Error Page:Account/Login, Error:Tag bulunamadı, Error Line:197
+   at QrCode.Application.Features.Tags.VerificationCode.GetVerificationCodeHandler.Handle(GetVerificationCode request, CancellationToken cancellationToken) in C:\Users\DELL4800\Desktop\Me\E_QrCodeProject\QrCode.Application\Features\Tags\VerificationCode\GetVerificationCodeHandler.cs:
+[2024-07-20 18:13:53 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:14:55 ERR]  Error Page:Account/Login, Error:Tag bulunamadı, Error Line:197
+   at QrCode.Application.Features.Tags.VerificationCode.GetVerificationCodeHandler.Handle(GetVerificationCode request, CancellationToken cancellationToken) in C:\Users\DELL4800\Desktop\Me\E_QrCodeProject\QrCode.Application\Features\Tags\VerificationCode\GetVerificationCodeHandler.cs:
+[2024-07-20 18:14:55 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:14:59 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:14:59 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:16:01 ERR]  Error Page:Account/Login, Error:Tag bulunamadı, Error Line:197
+   at QrCode.Application.Features.Tags.VerificationCode.GetVerificationCodeHandler.Handle(GetVerificationCode request, CancellationToken cancellationToken) in C:\Users\DELL4800\Desktop\Me\E_QrCodeProject\QrCode.Application\Features\Tags\VerificationCode\GetVerificationCodeHandler.cs:
+[2024-07-20 18:16:01 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:16:02 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:16:02 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:16:35 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:16:35 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:17:27 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:17:42 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:17:42 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:18:18 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:18:32 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:20:57 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:21:15 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:22:30 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:22:57 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:23:03 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:23:25 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:24:42 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:26:27 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:26:37 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:27:15 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:27:29 ERR]  An unhandled exception has occurred while executing the request.
+[2024-07-20 18:27:29 ERR]  An exception was thrown attempting to display the error page.
+[2024-07-20 18:27:29 ERR]  Connection id "0HN58Q0G2O53U", Request id "0HN58Q0G2O53U:00000089": An unhandled exception was thrown by the application.
+[2024-07-20 18:33:09 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:33:09 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:36:29 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:36:29 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:38:17 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:38:17 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:39:42 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:39:42 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:40:16 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:40:16 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:41:40 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:41:40 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:42:29 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:42:29 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:42:50 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:42:50 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:43:09 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:43:09 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:43:18 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:43:18 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:43:52 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:43:52 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+[2024-07-20 18:47:23 WRN]  Unable to configure Browser Link script injection on the response. 
+[2024-07-20 18:47:23 WRN]  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.

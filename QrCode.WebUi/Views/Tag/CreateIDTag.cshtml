@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "CreateIDTag";
+}
+
+<title>Create ID Tag - Torruna</title>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#navbarCollapse > div > a.nav-item.nav-link.active').removeClass('active');
+        $("#navbarCollapse > div > div > a").addClass("active");
+    });
+</script>
+<div class="container-fluid pt-5">
+    <div class="d-flex flex-column text-center mb-3 pt-1">
+        <h4 class="text-secondary mb-3">Generate ID Tag </h4>
+        @* <h1 class="display-4 m-0" id="h1Title">Sign in</h1>*@
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-8 mb-5">
+            <div class="contact-form">
+                <form asp-action="CreateIDTag" method="post">
+                    <div class="form-group">
+                        
+                        <div class="control-group">
+                            <input type="text" class="form-control p-4" id="OrderNo" placeholder="Enter Quantity" required="required" data-validation-required-message="Please enter Order No" name="quantity" id="quantity" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        
+
+                        @*                         <div class="control-group">
+                        <input type="text" class="form-control p-4" id="CustomerName" placeholder="Customer Name"  asp-for="CustomerName" />
+                        <p class="help-block text-danger"></p>
+                        </div> *@
+
+
+                        <div style="justify-content:end;display:flex">
+                            <button class="btn btn-primary py-3 px-5" style="z-index:999" type="submit" id="btnCreateQrCode">Generate</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="loader"></div>

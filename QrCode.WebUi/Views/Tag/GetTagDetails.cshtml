@@ -1,0 +1,157 @@
+﻿@model QrCode.WebUi.Models.TagDetailModel
+@{    
+    if (!User.Identity.IsAuthenticated)
+    {
+        Layout = null;
+    }
+}
+@if (!User.Identity.IsAuthenticated)
+{
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            console.log("Geolocation is not supported by this browser.");
+        }
+        function showPosition(position) {
+         @*   console.log("Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude);*@
+            var latitude = position.coords.latitude.toString();
+            var longitude = position.coords.longitude.toString();
+            var formData = {
+                latitude: latitude,
+                longitude: longitude
+            };
+            $.ajax({
+                type: 'POST',
+                url: '/Tag/GetGoogleMapsUrl',
+                data: formData,
+                dataType: 'json',
+                success: function (response) {
+                    if (response.success) {
+                        $('#result').html('<div style="color:green;">' + response.message + '</div>');
+                    } else {
+                        $('#result').html('<div style="color:red;">' + response.message + '</div>');
+                    }
+                },
+                error: function () {
+                    $('#result').html('<div style="color:red;">Bir hata oluştu. Lütfen tekrar deneyin.</div>');
+                }
+            });
+
+
+        }
+    </script>
+}
+<style>
+    .image-container {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .blur-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        top: 85%;
+        font-size: 1.8em;
+        background-color: rgba(255, 255, 255, 0.5); /* Flu etiketin arka plan rengi */
+        backdrop-filter: blur(8px); /* Flu etiketin bulanıklık miktarı */
+        pointer-events: none; /* Bu etiketin tıklama ve fare olaylarına yanıt vermemesini sağlar */
+        font-weight: 900;
+    }
+</style>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="Torruna Tag Page" name="keywords">
+<meta content="Torruna Tag Page" name="description">
+<link href="~/images/torruna.png" rel="icon">
+<title>Tag Details - Torruna</title>
+<!-- Google Web Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+<!-- Flaticon Font -->
+<link href="~/lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+<!-- Libraries Stylesheet -->
+
+<link href="~/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+<!-- Customized Bootstrap Stylesheet -->
+<link href="~/css/style.css" rel="stylesheet">
+
+<div class="container-fluid" >
+    <div class="container">
+        <div class="row align-items-center pb-5 mb-3 mt-5">
+            @if (User.Identity.IsAuthenticated)
+            {
+            <div class="col-lg-12 ">
+                <a class="py-3" style="color:dodgerblue" href="/Tag/GetUserTag"><i class="fas fa-angle-double-left"></i> Go Back</a>
+            </div>
+            }
+            
+            <div class="col-lg-5 " >
+                <div class="control-group image-container text-center">
+                @if (Model.TagImages != null)
+                {
+                    //string imageBase64 = Convert.ToBase64String(Model.TagImages);
+                    //string imageSrc = $"data:image/jpeg;base64,{imageBase64}";
+                    <img class="img-fluid mt-3" src="@Model.TagImages" style="border-radius:15px;max-height:300px;width:auto;" alt="@Model.Description">
+                }
+                 @if (Model.IsLoss == true)
+                        {
+                    <div class="blur-overlay text-primary">
+                        LOST
+                    </div>
+                        }
+                </div>
+               
+            </div>
+            <div class="col-lg-7 py-5 py-lg-0 px-3 px-lg-5">
+                <h4 class="text-secondary mb-3">Hello friend</h4>
+            
+                <p class="mb-4">@Model.Description</p>
+                <div class="row py-2" style="flex-direction:column">
+                    <div class="col-12">
+                        <div class="d-flex align-items-center mb-4">
+                            <h2 class="font-weight-normal text-secondary m-0 mr-3"><i class="fas fa-dog"></i></h2>
+                            <h5 class="text-truncate m-0">My name is @Model.TagName</h5>
+                        </div>
+                    </div>
+                
+            
+                    <div class="col-12">
+                        <div class="d-flex align-items-center mb-4">
+                            <h2 class="font-weight-normal text-secondary m-0 mr-3"> <i class="fas fa-paw"></i></h2>
+                            <h5 class="text-truncate m-0">I am @Model.TagAge years old</h5>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <div class="d-flex align-items-center mb-4">
+                                <h2 class="text-secondary m-0 mr-3"><i class="fas fa-phone-alt"></i></h2>
+
+                                <a href="tel:@Model.TagTelephoneNumber" style="text-decoration:none"> <h5 class="text-truncate m-0">@Model.TagTelephoneNumber</h5></a>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="d-flex align-items-center mb-4 text-center">                               <a href="tel:@Model.TagTelephoneNumber" style="text-decoration:none;width:100%" class="btn btn-warning p-3"> <h5 class="text-truncate m-0"><i class="fas fa-phone-alt"></i> Contact Owner</h5></a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

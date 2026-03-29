@@ -1,0 +1,155 @@
+﻿@model QrCode.Application.Models.LoginRequest
+
+@{
+    Layout = null;
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<link href="images/favicon.ico" rel="icon">
+
+<!-- Google Web Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+<!-- Flaticon Font -->
+<link href="~/lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+<!-- Libraries Stylesheet -->
+
+<link href="~/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+<!-- Customized Bootstrap Stylesheet -->
+<link href="~/css/style.css" rel="stylesheet">
+
+
+@*<div class="continer" style="padding:15px">
+    <!-- Sign up form -->
+    <section class="sign-in">
+        <div class="container">
+            <div class="signin-content">
+                <div class="signin-image">
+                    <figure><img src="~/images/signin-image.jpg" alt="sing up image"></figure>
+                    <a href="#" class="signup-image-link">Create an account</a>
+                </div>
+
+                <div class="signin-form">
+                    @if (TempData["VerificationCode"] == null)
+                    {
+                        <h2 class="form-title">Login</h2>
+                        <form method="POST" class="register-form" id="login-form">
+                            @if (ViewData["ReturnUrl"] != null)
+                            {
+                                <div>
+                                    <input type="hidden" name="ReturnUrl" value="@ViewData["ReturnUrl"]" />
+                                </div>
+                            }
+                            @if (ViewBag.Message != null)
+                            {
+                                <div class="form-group alert alert-info">
+                                    <span>@ViewBag.Message</span>
+                                </div>
+                            }
+                            @if (TempData["Error"] != null)
+                            {
+                                <div class="alert alert-danger">
+                                    <span>@TempData["Error"]</span>
+                                </div>
+                            }
+                            <div class="form-group">
+                                <label for="username"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="username" id="username" asp-for=UserName placeholder="User Email" />
+                                <span asp-validation-for="UserName" style="color:red"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="password"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="password" id="password" asp-for="Password" placeholder="Password" />
+                                <span asp-validation-for="Password" style="color:red"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                                <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in" />
+                            </div>
+                        </form>
+                    }
+                    else
+                    {                        
+                        <form method="POST" class="register-form" id="verification-form">
+                            <h4 class="form-title">Enter the verification code for your tag number #@TempData["Tag"] </h4>
+                            @if (TempData["Error"] != null)
+                            {
+                                <div class="alert alert-danger">
+                                    <span>The code entered is incorrect.</span>
+                                </div>
+                            }
+                            <div class="form-group">
+                                <label for="incomingVerificationCode"><i class="fa fa-tag"></i></label>
+                                <input type="text" asp-for="TagVerification.IncomingVerificationCode" placeholder="Verification Code" />
+                            </div>                            
+                            <div class="form-group form-button">
+                                <input type="hidden" value="@TempData["Tag"]" asp-for="TagVerification.Tag" />
+                                <input type="submit" name="send" id="send" class="form-submit" value="Send" />
+                            </div>
+                        </form>
+                    }
+                    
+                    <div class="social-login">
+                        <span class="social-label">Or login with</span>
+                        <ul class="socials">
+                            <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
+                            <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
+                            <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>*@
+
+    <div class="container-fluid pt-5">
+        <div class="d-flex flex-column text-center mb-5 pt-5">
+        <h4 class="text-secondary mb-3">Torruna </h4>
+        <h1 class="display-4 m-0">Login</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 mb-5">
+                <div class="contact-form">
+                    <div id="success"></div>
+                    <form method="post">
+                        <div class="control-group">
+                        <input type="email" class="form-control p-4" id="email" placeholder="User Email" required="required" data-validation-required-message="Please enter your name" asp-for="Email" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="password" class="form-control p-4" id="email" placeholder="Password" required="required"  asp-for="Password"/>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                   
+                        <div style="text-align:end">
+                            <button class="btn btn-primary py-3 px-5" type="submit" id="sendMessageButton">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/easing/easing.min.js"></script>
+<script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="~/lib/tempusdominus/js/moment.min.js"></script>
+<script src="~/lib/tempusdominus/js/moment-timezone.min.js"></script>
+<script src="~/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Login Javascript File -->
+<script src="~/account/jqBootstrapValidation.min.js"></script>
+<script src="~/account/contact.js"></script>
+<!-- Template Javascript -->
+<script src="~/js/main.js"></script>
+

@@ -1,0 +1,97 @@
+﻿@{
+    Layout = null;
+}
+
+<style>
+    body, html {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #centered-div {
+        width: 100%;
+        height: 500px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        text-align: center;
+        line-height: 200px;
+    }
+ </style>
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<div class="centered-div" style="box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;padding:15px;font-size:16px;display:block" role="alert">
+    <h2>Email verification successfull...</h2>
+    <h4> Please <a href="http://www.torruna.store/Account/Login" style="font-weight:800">click</a> to login</h4>
+</div>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<style>
+    body, html {
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #eee;
+        width: 98%;
+    }
+</style>
+
+
+    <div class="container-fluid">
+
+        <div class="row justify-content-center mt-1">
+            <div class="col-sm-4 mb-1" style="box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important;
+    background-color: #fff; border-radius: 20px;">
+                <div class="contact-form ">
+                    <div class="d-flex flex-column text-center mb-1 pt-2">
+                        <img src="~/images/torruna.png" style="height:70px;margin:auto;padding:3px" />
+                        <h4 class="text-secondary mb-1">Torruna </h4>
+                        <h1 class="m-0">Mail Register Activation</h1>
+                    </div>
+                    <form method="post">
+                        <div class="control-group ">
+                            <a href="/Account/GoogleLogin" class="btn btn-light mb-2 mt-2 form-control" style="background: #4285f4;border-radius: 5px" type="submit" id="sendMessageButton">
+                                <img src="https://developers.google.com/identity/images/g-logo.png" style="height: 100%;border-radius: 5px;" /> <span style="color:white">Continue with google</span>
+                            </a>
+                            <br>
+                            <a href="/Account/ExternalLogin" class="btn btn-light  mb-2 form-control" style="background: #4065B4;" type="submit" id="sendMessageButton">
+                                <img src="https://static.xx.fbcdn.net/rsrc.php/yE/r/xotM8R60Dei.svg" style="height: 100%;border-radius: 5px" /> <span style="color:white">Continue with facebook</span>
+                            </a>
+                        </div>
+                       
+                        @* <div class="form-check mb-2">
+                        <input class="form-check-input"   id="isTerms" asp-for="IsTerms">
+                        <label class="form-check-label" for="isTerms">
+                        <a href="#" data-toggle="modal" data-target="#exampleModal" style="color:#4065B4;text-decoration:none">I have read the terms and conditions and agree.</a>
+                        </label>
+
+                        <span class="help-block text-danger" id="SpanTerms">* (Registration will not be made without marking)</span>
+                        </div>*@
+                        <div class="control-group">
+                            <button class="btn btn-primary py-2 px-2 mb-2 form-control" type="submit" id="sendMessageButton">Create Account</button>
+                            <br>
+                            <a href="/Account/Login" class="btn btn-info py-2 px-2 mb-2 form-control">I am already member</a>
+                        </div>
+                        <div class="control-group" style="text-align:center">
+                            By create account you agree to our
+                            <br />
+                            <a href="#" data-toggle="modal" data-target="#termOfTorruna" style="color:#4065B4;text-decoration:none">Terms Of Service</a>
+                            | <a href="#" data-toggle="modal" data-target="#privacyOfTorruna" style="color:#4065B4;text-decoration:none">Privacy Policy</a>
+                        </div>
+                        <hr style="height:1px;color:red;margin:0" />
+                        <div class="control-group " style="text-align:center">
+
+                            <span class="small mr-2">Powered by</span><a href="https://www.amazon.com/stores/LeatherDogCollar/page/E13E8438-BBE1-4498-AEB6-9F2454F5ADDB?ref_=ast_bln" target="_blank" rel="noopener noreferrer"><img src="~/images/torruna.png" style="height:25px;margin:auto;padding:5px" />TORRUNA</a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>

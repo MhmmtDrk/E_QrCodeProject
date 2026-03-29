@@ -1,0 +1,151 @@
+﻿@model QrCode.WebUi.Models.TagUpdateModel
+@{
+    ViewData["Title"] = "UpdateTagDetails";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<title>Update tag - Torruna</title>
+<script>
+    function showImage(input) {
+       
+        var file = input.files[0];
+        var reader = new FileReader();
+        reader.onload = function (e) {
+            document.getElementById('preview').src = e.target.result;
+       
+        }
+        reader.readAsDataURL(file);
+    }
+</script>
+<style>
+    .control-group input[type="file"] {
+        display: none; /* Dosya seçme alanını gizle */
+    }
+
+    #fileLabel {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+  
+
+
+    .image-container {
+        position: relative;
+        display: inline-block;
+        width:100%;
+    }
+
+    .blur-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        top:79%;
+        font-size:1.8em;
+        background-color: rgba(255, 255, 255, 0.5); /* Flu etiketin arka plan rengi */
+        backdrop-filter: blur(8px); /* Flu etiketin bulanıklık miktarı */
+        pointer-events: none; /* Bu etiketin tıklama ve fare olaylarına yanıt vermemesini sağlar */
+        font-weight:900;
+    }
+
+</style>
+
+
+<div class="container-fluid pt-5" >
+    <div class="d-flex flex-column text-center">
+        <h4 class="text-secondary mb-3">#@Model.TagNo </h4>
+        @*<h1 class="display-4 m-0" id="h1Title">Sign in</h1>*@
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-8 mb-5">
+            <div class="col-lg-12 ">
+                <a class="py-3" style="color:dodgerblue" href="/Tag/GetUserTag"><i class="fas fa-angle-double-left"></i> Go Back</a>
+            </div>
+            <div class="contact-form col-12" style="height: 100%;">
+                
+                <form method="post" enctype="multipart/form-data">
+                    @*<label>Picture</label>*@
+                    <input type="hidden" asp-for="TagNo" />
+                    <div class="control-group image-container mb-2" style="text-align:center">
+                        <input type="file" accept="image/*" asp-for="TagImages" lass="form-control p-4" onchange="showImage(this)" />
+                       
+                        @if (Model.TagImagesText != null)
+                        {
+                            @* string imageBase64 = Convert.ToBase64String(ViewBag.TagImages);
+                            string imageSrc = $"data:image/jpeg;base64,{imageBase64}"; *@
+                            <img src="@Model.TagImagesText" id="preview" style="width:auto;border-radius:15px;height:200px;max-width:-webkit-fill-available;" class="card-img-top img-fluid" alt="@Model.TagName">
+                        }
+                        @if (Model.IsLoss == true)
+                        {
+                            <div class="blur-overlay text-primary">
+                                LOST
+                            </div>
+                        }
+
+                    </div>
+                    <div class="control-group" style="text-align:center">
+                    <label for="TagImages" id="fileLabel" class="w-50">Choose Picture</label>
+                    </div>
+                    <div class="custom-control custom-switch m-2 text-center">
+                        <input type="checkbox" class="custom-control-input p-4 form-check-input-lg" id="IsLoss" asp-for="IsLoss" style="--bs-form-switch-width:60px;--bs-form-switch-height:24px" />
+                        @if (Model.IsLoss == true)
+                        {
+                            <label class="custom-control-label" for="IsLoss" id="isLossLabel">
+                                Remove Lost Check
+                            </label>
+                        }
+                        else
+                        {
+                            <label class="custom-control-label" for="IsLoss" id="isLossLabel">
+                                Mark the Lost Check
+                            </label>
+                        }
+
+
+                    </div>
+                    
+                    <hr style="height:1px"/>
+                    
+                   
+                    <div class="control-group" sry>
+                        <label>Pet Name</label>
+                        <input type="text" class="form-control p-4" id="tagName" placeholder="e.g. Daisy"  asp-for="TagName" />
+                        <span class="help-block text-danger" asp-validation-for="TagName"></span>
+                    </div>               
+                    <div class="control-group">
+                        <label>Pet Age</label>
+                        <input type="text" class="form-control p-4" id="tagAge" placeholder="e.g. 4" asp-for="TagAge" />
+                        <span class="help-block text-danger" asp-validation-for="TagAge"></span>
+                    </div>
+                    <div class="control-group">
+                        <label>About My Pet</label>
+                        <textarea type="text" class="form-control p-4" id="description" placeholder="e.g. My Name is Daisy. etc." rows="3"  asp-for="Description" >
+                        </textarea>
+                        <span class="help-block text-danger" asp-validation-for="Description"></span>
+                    </div>
+                    <div class="control-group mb-2">
+                        <label>My Phone Number</label>
+                        <input type="text" class="form-control p-4" id="tagTelephoneNumber" placeholder="e.g. 123-456-7890"  asp-for="TagTelephoneNumber" />
+                        <span class="help-block text-danger" asp-validation-for="TagTelephoneNumber"></span>
+                    </div>
+                    <div style="justify-content:flex-end;display:flex">
+                        <button class="btn btn-primary py-3 px-5" type="submit" style="z-index:999" id="sendMessageButton">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script>
+    $(document).on("click", '#IsLoss', function () {        
+        var isCheck = $(this).is(":checked");
+        $("#isLossLabel").text("Mark the Lost Check")
+        if (isCheck==true) {
+            $("#isLossLabel").text("Remove Lost Check")
+        }
+    })
+</script>

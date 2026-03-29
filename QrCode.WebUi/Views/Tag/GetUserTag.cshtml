@@ -1,0 +1,90 @@
+﻿@model List<QrCode.Domain.AggregateModels.TagModels.Tag>
+@{
+    ViewData["Title"] = "GetUserTag";
+}
+<style>
+    .image-container {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .blur-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        top: 85%;
+        font-size: 1.8em;
+        background-color: rgba(255, 255, 255, 0.5); /* Flu etiketin arka plan rengi */
+        backdrop-filter: blur(8px); /* Flu etiketin bulanıklık miktarı */
+        pointer-events: none; /* Bu etiketin tıklama ve fare olaylarına yanıt vermemesini sağlar */
+        font-weight: 900;
+    }
+</style>
+<title>My Tags - Torruna</title>
+<div class="container-fluid  pt-5 pb-4">
+    <div class="container ">
+        <div class="d-flex flex-column text-center mb-5">
+            <h4 class="text-secondary mb-3">My Tags</h4>
+            @* <h1 class="display-4 m-0">My <span class="text-primary">Tags</span></h1>*@
+        </div>
+        <div class="row" style="text-align:center">
+            @if (Model.Count == 0)
+            {
+                <h4 class="text-center mb-5" style="width:100%">No tags have been found. <i class="far fa-frown"></i></h4>
+            }
+            else
+            {
+                @foreach (var tag in Model)
+                {
+                    <div class="col-lg-4 mb-4">
+                    
+                        <div class="card border-0" style="box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">
+                            <div class="card-header position-relative border-0 p-0 mb-1">
+                                <div class="control-group image-container mb-2" style="text-align:center;padding:5px">
+                                @if (tag.TagImages != null)
+                                {
+                                    @* string imageBase64 = Convert.ToBase64String(tag.TagImages);
+                                    string imageSrc = $"data:image/jpeg;base64,{imageBase64}"; *@
+
+                                    <img class="card-img-top" src="@tag.TagImages" alt="@tag.TagName" style="width:auto;border-radius:15px;height:200px;max-width:-webkit-fill-available;">
+                                }
+                                    @if (tag.IsLoss == true)
+                                    {
+                                        <div class="blur-overlay text-primary">
+                                            LOST
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                            <div class="card-footer  border-0 p-0" style="display:flex;margin:1px">
+                                <a href="/Tag/UpdateTagDetails?tag=@tag.No" class="btn btn-primary  p-1" style="border-radius: 0;width:50% "><i class="far fa-edit" style="padding:5px"></i>Edit</a>
+                                <a href="/Tag/GetTagDetails?tag=@tag.No" class="btn btn-secondary  p-1" style="border-radius: 0;width:50% "><i class="fas fa-receipt" style="padding:5px"></i>Details</a>
+                            </div>
+                         
+                            <div class="card-body text-center p-0">
+                                <ul class="list-group list-group-flush mb-4">
+                                    <li class="list-group-item p-2"><i class="fas fa-tag text-secondary"></i><span style="font-weight:600" class="text-secondary"> #@tag.No</span></li>
+                                    <li class="list-group-item p-2"><span style="font-weight:600" >Name:</span>  @tag.TagName</li>
+                                    <li class="list-group-item p-2"><span style="font-weight:600" >Age:</span> @tag.TagAge</li>
+                                    <li class="list-group-item p-2"><span style="font-weight:600" >Desc:</span> @tag.Description</li>
+                                    <li class="list-group-item p-2"><span style="font-weight:600">Phone:</span> @tag.TagTelephoneNumber</li>
+                                </ul>
+                            </div>
+                                           
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {        
+        $('#navbarCollapse > div > a.nav-item.nav-link.active').removeClass('active');
+        $("#navbarCollapse > div > a:nth-child(2)").addClass("active");
+    });
+</script>
+
